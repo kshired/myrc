@@ -1,7 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/hihello/.oh-my-zsh"
 alias pmr="python3 manage.py runserver"
 alias pmm0="python3 manage.py makemigrations"
 alias pmm1="python3 manage.py migrate --run-syncdb"
@@ -104,8 +103,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /Users/hihello/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
@@ -116,4 +113,3 @@ autoload -U edit-command-line
 zle -N edit-command-line
 bindkey '^xe' edit-command-line
 bindkey '^x^e' edit-command-line
-alias 1004="/etc/firstrun.sh"
